@@ -1,0 +1,47 @@
+body {
+  background-color: lightpink;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.wonder {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.wonder.chichen-itza {
+  background-image: url("images/chichen-itza.jpg");
+}
+.wonder.machu-picchu {
+  background-image: url("images/machu-picchu.jpg");
+}
+.wonder.redeemer-christ {
+  background-image: url("images/redeemer-christ.jpg");
+}
+.wonder.coloseum {
+  background-image: url("images/rome-coluseum.jpg");
+}
+.wonder.petra {
+  background-image: url("images/petra.jpg");
+}
+.wonder.taj-mahal {
+  background-image: url("images/taj-mahal.jpg");
+}
+.wonder.china-wall {
+  background-image: url("images/china-wall.jpg");
+}
+
+/*# sourceMappingURL=style.css.map */
